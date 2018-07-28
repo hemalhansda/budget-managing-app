@@ -1,0 +1,43 @@
+<!--
+Problem
+1. Add a input box where user can enter a string
+2. Add a button called "check"
+3. when user clicks "check" button, display result whether the input string is an Isogram or not
+
+About Isogram
+An isogram (also known as a "nonpattern word") is a word or phrase without a repeating letter.
+
+Examples of isograms:
+lumberjacks
+background
+downstream
+The word isograms, however, is not an isogram, because the s repeats.
+
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+  </head>
+ 	<body>
+    <div>
+      <form onSubmit="isog();">
+        <input type="text" id="user" name="user"/>
+        <p id="isogram">
+        
+        </p>
+        <button>
+          Check
+        </button>
+      </form>
+    </div>
+    <script id="template" type="text/template"></script>
+    <script type="javascript">
+    	var user = document.getElementById(#user).value;
+      function isog(){
+      	var temp;
+        temp = user;
+        console.log(temp);
+      }
+    </script>
+  </body>
+ </html>
